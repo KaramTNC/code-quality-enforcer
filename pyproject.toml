@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=77", "setuptools-scm>=8"]
+requires = ["setuptools>=84.0.0", "setuptools-scm>=8"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -20,12 +20,12 @@ Changelog = "https://github.com/KaramTNC/code-quality-enforcer/releases"
 
 [project.optional-dependencies]
 dev = [
-    "coverage>=7.6",
+    "coverage>=7.16.0",
     "mypy>=2.3.1",
-    "ruff>=0.8",
+    "ruff>=0.16.5",
 ]
 security = [
-    "pip-audit>=2.7",
+    "pip-audit>=2.10.1",
 ]
 
 [project.scripts]
